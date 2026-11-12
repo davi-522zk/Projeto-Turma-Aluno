@@ -1,0 +1,69 @@
+
+*{
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+body{
+    background-color: darkblue;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container, .container2, .container3{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+}
+
+body > div{
+    background-color: aliceblue;
+    border-radius: 12px;
+    box-sizing: border-box;
+    width: min(100% - 32px, 360px);
+    padding: 24px;
+}
+
+body, div, h1{
+    margin: 0 0 6px;
+}
+
+label{
+    font-size: 14px;
+}
+
+input, button{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 12px;
+}
+
+button{
+    margin-top: 4px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+h1{
+    color: aliceblue;
+}
